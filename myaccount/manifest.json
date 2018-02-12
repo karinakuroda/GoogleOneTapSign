@@ -1,7 +1,7 @@
 {
 	"name": "ViajaNet - Passagens Aereas com economia garantida",
 	"short_name": "ViajaNet",
-	"start_url": "/GoogleOneTapSign/myaccount",
+	"start_url": "./GoogleOneTapSign/myaccount",
 	"scope": "./",
 	"display": "standalone",
 	"background_color": "#e2e2e2",
