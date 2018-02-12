@@ -1,0 +1,1 @@
+importScripts('https://static.shopback.net/tags/service-worker.js?nocache=1');
