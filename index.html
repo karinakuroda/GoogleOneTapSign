@@ -14,7 +14,7 @@
 				console.log('ServiceWorker registration successful with scope: ', registration.scope);
 				
 				
-					self.addeventlistener('fetch', function (event) {
+					self.addEventListener('fetch', function (event) {
 			event.respondwith(
 				caches.match(event.request)
 					.then(function (response) {
