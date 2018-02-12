@@ -5,7 +5,7 @@
 	"scope": "./",
 	"display": "standalone",
 	"background_color": "#e2e2e2",
-	"description": "Passagens Aereas, hoteis, carros, seguros de viagens e mais no ViajaNet. Aproveite e faca sua viagem com economia garantida sempre",
+	"description": "Passagens Aéreas, hoteis, carros, seguros de viagens e mais no ViajaNet. Aproveite e faca sua viagem com economia garantida sempre",
 	"orientation": "portrait-primary",
 	"gcm_sender_id": "133488059068",
 	"gcm_user_visible_only": true,
