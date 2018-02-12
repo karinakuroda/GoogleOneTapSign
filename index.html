@@ -9,23 +9,24 @@
   //
   if ('serviceWorker' in navigator) {
 		window.addEventListener('load', function () {
-			navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+			navigator.serviceWorker.register('./service-worker.js').then(function (registration) {
+			<!-- navigator.serviceWorker.register('/service-worker.js').then(function (registration) { -->
 				console.log('ServiceWorker registration successful with scope: ', registration.scope);
 				
 				
-					<!-- self.addEventListener('fetch', function (event) { -->
-			<!-- event.respondWith( -->
-				<!-- caches.match(event.request) -->
-					<!-- .then(function (response) { -->
-						<!-- // Cache hit - return response -->
-						<!-- if (response) { -->
-							<!-- return response; -->
-						<!-- } -->
-						<!-- return fetch(event.request); -->
-					<!-- } -->
-					<!-- ) -->
-			<!-- ); -->
-		<!-- }); -->
+					self.addeventlistener('fetch', function (event) {
+			event.respondwith(
+				caches.match(event.request)
+					.then(function (response) {
+						// cache hit - return response
+						if (response) {
+							return response;
+						}
+						return fetch(event.request);
+					}
+					)
+			);
+		});
 				
 			}, function (err) {
 				console.log('ServiceWorker registration failed: ', err);
