@@ -1,3 +1,4 @@
+//teste
 var CACHE_NAME = 'my-account-cache';
 var urlsToCache = [
   '/',
