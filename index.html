@@ -6,7 +6,7 @@
 <body>
   <script src="https://smartlock.google.com/client"></script>
   <script>
-  //
+  var self=this;
   if ('serviceWorker' in navigator) {
 		window.addEventListener('load', function () {
 			navigator.serviceWorker.register('./service-worker.js').then(function (registration) {
