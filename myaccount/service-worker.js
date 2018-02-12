@@ -1,8 +1,7 @@
 
 var CACHE_NAME = 'my-account-cache';
 var urlsToCache = [
-  '/',
-  '/index.html'
+  './index.html'
 ];
 			
 self.addEventListener('install', function(e) {
