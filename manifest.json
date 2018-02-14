@@ -11,42 +11,42 @@
 	"gcm_user_visible_only": true,
 	"icons": [
 		{
-			"src": "./pwa/logo48.png",
+			"src": "./myaccount/pwa/logo48.png",
 			"sizes": "48x48",
 			"type": "image/png"
 		},
 		{
-			"src": "./pwa/logo72.png",
+			"src": "./myaccount/pwa/logo72.png",
 			"sizes": "72x72",
 			"type": "image/png"
 		},
 		{
-			"src": "./pwa/logo96.png",
+			"src": "./myaccount/pwa/logo96.png",
 			"sizes": "96x96",
 			"type": "image/png"
 		},
 		{
-			"src": "./pwa/logo144.png",
+			"src": "./myaccount/pwa/logo144.png",
 			"sizes": "144x144",
 			"type": "image/png"
 		},
 		{
-			"src": "./pwa/logo168.png",
+			"src": "./myaccount/pwa/logo168.png",
 			"sizes": "168x168",
 			"type": "image/png"
 		},
 		{
-			"src": "./pwa/logo192.png",
+			"src": "./myaccount/pwa/logo192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "./pwa/logo256.png",
+			"src": "./myaccount/pwa/logo256.png",
 			"sizes": "256x256",
 			"type": "image/png"
 		},
 		{
-			"src": "./pwa/logo512.png",
+			"src": "./myaccount/pwa/logo512.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
