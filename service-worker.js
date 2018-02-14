@@ -1,8 +1,8 @@
 
 var CACHE_NAME = 'my-account-cache';
 var urlsToCache = [
-  './myaccount/*',
-  './pwa/logo144.png'
+  './myaccount/index.html',
+  './myaccount/pwa/logo144.png'
 ];
 			
 self.addEventListener('install', function(e) {
