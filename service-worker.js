@@ -1,7 +1,7 @@
 
 var CACHE_NAME = 'my-account-cache';
 var urlsToCache = [
-  './*',
+  './myaccount/*',
   './pwa/logo144.png'
 ];
 			
