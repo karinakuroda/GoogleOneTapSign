@@ -2,7 +2,7 @@
 	"name": "ViajaNet - Passagens Aereas com economia garantida",
 	"short_name": "ViajaNet",
 	"start_url": "./GoogleOneTapSign/myaccount",
-	"scope": "./GoogleOneTapSign/myaccount/*",
+	"scope": "./myaccount/*",
 	"display": "standalone",
 	"background_color": "#e2e2e2",
 	"description": "Passagens Aéreas, hoteis, carros, seguros de viagens e mais no ViajaNet. Aproveite e faca sua viagem com economia garantida sempre",
