@@ -16,15 +16,6 @@
 			
 				console.log('ServiceWorker registration successful with scope: ', registration.scope);
 				
-				var CACHE_NAME = 'my-account-cache';
-				var urlsToCache = [
-				  '/',
-				  '/styles/main.css',
-				  '/script/main.js'
-				];
-
-				
-				
 			}, function (err) {
 				console.log('ServiceWorker registration failed: ', err);
 			});
